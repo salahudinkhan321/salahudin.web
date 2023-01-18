@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 600px;
+    width: 100%;
+    background-image: url(simple.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.logo{
+    color: rgb(255, 249, 249);
+    font-size: 40px;
+}
+span{
+    color: aliceblue;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+nav ul li a{
+            color: aliceblue;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: capitalize;
+}
+nav ul li a:hover{
+                color: red;
+                transition: .4s;
+}
+.btn{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 23px;
+    position: relative;
+    margin-right: 20px;
+    transition: transform .4s;
+}
+.btn:hover{
+    background-color: gray;
+    transform: scale(1.1);
+}
+.content{
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+.content h2{
+    color: aliceblue;
+    font-size: 75px;
+}
+.content h3{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: aliceblue;
+    box-shadow: 0px 0px 2px black, 0px 0px 8px rgb(61, 56, 56);
+    left: 266px;
+    top: 180px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(36, 33, 33);
+}
+.about img{
+    width: 30%;
+    height: 370px;
+    position: relative;
+    left: 90px;
+    top: 130px;
+}
+.about-text{
+            position: relative;
+            bottom: 170px;
+            color: aliceblue;
+            left: 520px;
+            margin: 40px;
+}
+.about-text h2{
+    color: white;
+    position: relative;
+    bottom: 60px;
+}
+.about-text h5{
+    position: relative;
+    bottom: 40px;
+    font-size: 15px;
+}
+.about-text pre{
+    position: relative;
+    bottom: 30px;
+}
+.about-text button{
+    padding: 10px 10px 10px 15px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: aliceblue;
+    transition: transform .4s;
+}
+.about-text button:hover{
+    background-color: gray;
+    transform: scale(1.1);
+}
+.service{
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    max-width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: aliceblue;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: rgb(82, 81, 81);
+    border-radius: 30px;
+    margin-inline: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.pra{
+    position: relative;
+    margin-top: 18px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.card h5{
+    position: relative;
+    margin-top: 70px;
+    font-size: 30px;
+    color: white;
+}
+.button{
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #f9004d;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: gray;
+    transform: scale(1.1);
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background: rgb(71, 70, 70);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.button-two{
+    color: aliceblue;
+    background: #f9004d;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.button-two:hover{
+    background: transparent;
+    transform: scale(1.1);
+}
